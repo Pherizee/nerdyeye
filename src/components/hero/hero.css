@@ -2,6 +2,7 @@
   position: relative;
   margin-top: 120px;
   padding-block: 45px 75px;
+  overflow: hidden;
 }
 
 .hero__text {
@@ -44,8 +45,13 @@
 
 .hero__image {
   border-radius: 10px;
-  aspect-ratio: 1 / 1.3;
   overflow: hidden;
+  aspect-ratio: 1 / 1.3;
+}
+
+.hero__image img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .hero__image::before,
@@ -61,12 +67,43 @@
 
 .hero__image::before {
   top: -25px;
-  left: 180px;
+  right: -120px;
 }
 
 .hero__image::after {
   bottom: -25px;
   left: -120px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero__text {
+    flex-basis: 50%;
+    margin-right: 10px;
+    text-align: left;
+  }
+
+  .hero__text .btn {
+    margin-inline: 0;
+    margin-bottom: 25px;
+  }
+
+  .hero__text .hero__number {
+    margin-inline: 0;
+  }
+
+  .hero__text .hero__number:first-child {
+    margin-inline-end: 60px;
+  }
+
+  .hero__image-container {
+    width: 50%;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 990px) {
@@ -76,5 +113,46 @@
 
   .hero__text .hero__number p {
     font-size: 16px;
+  }
+
+  .hero__image {
+    width: 64%;
+    margin-inline: auto;
+  }
+
+  .hero__image::before,
+  .hero__image::after {
+    width: 256px;
+    box-shadow: 0 0 0 60px #e4e6eb;
+  }
+
+  .hero__image::before {
+    top: -50px;
+  }
+
+  .hero__image::after {
+    bottom: -50px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero {
+    padding-block: 140px 125px;
+  }
+
+  .hero__image::before,
+  .hero__image::after {
+    width: 512px;
+    box-shadow: 0 0 0 80px #e4e6eb;
+  }
+
+  .hero__image::before {
+    top: -420px;
+    right: -160px;
+  }
+
+  .hero__image::after {
+    bottom: -420px;
+    left: -160px;
   }
 }
