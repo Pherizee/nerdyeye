@@ -1,5 +1,4 @@
 /* css resets */
-
 *,
 *::before,
 *::after {
@@ -23,6 +22,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: var(--heading1-size);
+}
+h2 {
+  font-size: var(--heading2-size);
+}
+h3 {
+  font-size: var(--heading3-size);
+}
+
 ul,
 li {
   list-style: none;
@@ -41,5 +50,6 @@ select {
 }
 
 a {
+  color: #000;
   text-decoration: none;
 }

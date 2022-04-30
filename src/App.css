@@ -2,7 +2,9 @@
 :root {
   --clr-neutral-100: #e5e5e5;
   --clr-neutral-300: #c4c4c4;
+  --clr-neutral-500: #575757;
   --clr-neutral-700: #3c3a3a;
+  --clr-neutral-900: #222222;
   --clr-primary: #d23431;
 
   --heading1-size: 40px;
@@ -10,6 +12,7 @@
   --heading3-size: 28px;
 }
 
+/* utilities */
 .wrapper {
   padding-inline: 20px; /* same as padding left and right */
 }
