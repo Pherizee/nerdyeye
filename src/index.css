@@ -28,9 +28,15 @@ h1 {
 }
 h2 {
   font-size: var(--heading2-size);
+  color: var(--clr-neutral-700);
 }
 h3 {
   font-size: var(--heading3-size);
+  color: var(--clr-neutral-700);
+}
+
+p {
+  color: var(--clr-neutral-700);
 }
 
 ul,

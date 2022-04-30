@@ -2,14 +2,14 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Footer from "./components/footer/Footer";
+import MainContent from "./components/mainContent/MainContent";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <main>
-        <Hero />
-      </main>
+      <Hero />
+      <MainContent />
       <Footer />
     </div>
   );
