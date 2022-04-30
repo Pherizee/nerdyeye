@@ -1,0 +1,32 @@
+/* variables */
+:root {
+  --clr-neutral-100: #e5e5e5;
+  --clr-neutral-300: #c4c4c4;
+  --clr-neutral-700: #3c3a3a;
+  --clr-primary: #d23431;
+
+  --heading1-size: 40px;
+  --heading2-size: 32px;
+  --heading3-size: 28px;
+}
+
+.wrapper {
+  padding-inline: 20px; /* same as padding left and right */
+}
+
+.section-heading {
+  text-align: center;
+  font-size: var(--heading2-size);
+  font-weight: 700;
+}
+
+.special {
+  /* class to give text primary color */
+  color: var(--clr-primary);
+}
+
+@media screen and (min-width: 990px) {
+  .wrapper {
+    padding-inline: 100px;
+  }
+}
