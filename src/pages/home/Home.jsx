@@ -10,6 +10,7 @@ import "./home.css";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import SuccessSection from "../../components/homeSections/successSection/SuccessSection";
+import ContactSection from "../../components/homeSections/contactSection/ContactSection";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <IndustriesSection />
       <WhyJoin />
       <SuccessSection />
+      <ContactSection />
     </main>
   );
 };

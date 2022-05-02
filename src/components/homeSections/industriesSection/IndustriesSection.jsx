@@ -4,7 +4,7 @@ import "./industriesSection.css";
 const IndustriesSection = () => {
   const cardContents = [
     {
-      title: "Logistics & <br /> Transportation",
+      title: ["Logistics &", <br />, "Transportation"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non aliquet in lacus, duis sagittis. Eget elementum duis",
     },
