@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer__content">
-          <div className="contact">
+          <div className="footer__contact">
             <h3>Contact</h3>
             <p>We build and we teach tech and digital solutions</p>
             <address>

@@ -89,7 +89,7 @@ const Header = () => {
           </li>
 
           {/* <!-- account division --> */}
-          <div className={`account-details ${isOpen ? "show" : ""}`}>
+          <div className="account-details">
             {/* <!-- beginning of user icon --> */}
             <svg
               className="user-icon"
@@ -135,37 +135,14 @@ const Header = () => {
           {/* <!-- end of account division --> */}
 
           {/* <!-- hamburger icon --> */}
-          <svg
-            className="hamburger"
-            width="25"
-            height="24"
-            viewBox="0 0 25 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className={`hamburger ${isOpen ? "open" : ""}`}
             onClick={handleClick}
           >
-            <path
-              d="M3.26807 12H21.2681"
-              stroke="black"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M3.26807 6H21.2681"
-              stroke="black"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M3.26807 18H21.2681"
-              stroke="black"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           {/* <!-- end of hamburger icon --> */}
         </div>
       </div>

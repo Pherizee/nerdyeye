@@ -28,25 +28,25 @@ footer {
   color: var(--clr-primary);
 }
 
-.contact > p {
+.footer__contact > p {
   margin-bottom: 15px;
 }
 
-.contact address {
+.footer__contact address {
   font-style: normal;
 }
 
-.contact address div {
+.footer__contact address div {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
-.contact address div img {
+.footer__contact address div img {
   grid-column: 1 / 2;
 }
 
-.contact address div p,
-.contact address div a {
+.footer__contact address div p,
+.footer__contact address div a {
   grid-column: 2 / 13;
 }
 
