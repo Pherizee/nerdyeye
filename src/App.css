@@ -40,12 +40,23 @@
 .btn.primary {
   color: #fff;
   background-color: var(--clr-primary);
+  transition: background-color 0.3s ease;
+}
+
+.btn.primary:hover {
+  background-color: var(--clr-neutral-900);
 }
 
 .btn.secondary {
-  border: 1px solid --clr-primary;
+  border: 1px solid var(--clr-primary);
   color: var(--clr-primary);
   background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn.secondary:hover {
+  border: 1px solid var(--clr-neutral-900);
+  color: var(--clr-neutral-900);
 }
 
 /* media queries */
