@@ -1,0 +1,64 @@
+/* industries section */
+.industries {
+  padding-block: 35px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.industries__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  padding-inline: 20px;
+}
+
+.industries__cards .card {
+  position: relative;
+  width: 100%;
+  max-width: 408px;
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  text-align: start;
+  background-color: #ededed;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+}
+
+.industries__cards .card:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+.industries__cards .card__text {
+  position: absolute;
+  bottom: 30px;
+}
+
+.industries__cards .card__text h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.industries__cards .card__text p {
+  font-size: 12px;
+}
+/* end of industries section */
+
+/* media queries */
+@media screen and (min-width: 756px) {
+  .industries__cards {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+  }
+
+  .industries__cards .card {
+    width: 44%;
+    border-radius: 15px;
+  }
+}

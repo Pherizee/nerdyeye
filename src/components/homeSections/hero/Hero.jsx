@@ -1,4 +1,4 @@
-import team from "../../img/team.jpg";
+import team from "../../../img/team.jpg";
 import "./hero.css";
 
 const Hero = () => {

@@ -1,0 +1,116 @@
+.join {
+  position: relative;
+  padding-block: 25px;
+  text-align: center;
+}
+
+.join img {
+  margin-bottom: 40px;
+}
+
+.join h2 {
+  margin-bottom: 20px;
+}
+
+.join p {
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.join__slider .owl-item {
+  padding-block: 20px 60px;
+}
+
+.join__slider .join__card {
+  margin-inline: auto;
+  padding: 32px;
+  width: 256px !important;
+  height: 230px !important;
+  border-radius: 5px;
+  text-align: left;
+  background-color: var(--clr-neutral-100) !important;
+  cursor: pointer;
+}
+
+.join__slider .join__card:hover {
+  box-shadow: 0px 37px 90px 6px rgba(87, 87, 87, 0.12) !important;
+  background-color: #fff !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.join__slider .join__card h3 {
+  font-size: 18px;
+}
+
+.join__card-image {
+  margin-left: auto;
+  margin-bottom: 42px;
+  width: 70px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.owl-theme .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 45%;
+  margin-top: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  display: grid;
+  place-items: center;
+  width: 80px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  box-shadow: -17px 9px 45px #ececec;
+  background: #fff !important;
+}
+
+.owl-theme .owl-nav span {
+  font-size: 50px;
+  transition: transform 0.3s ease;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover span {
+  transform: scale(1.2);
+}
+
+.owl-theme .owl-dots {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.join__slider.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+}
+
+/* media queries */
+@media screen and (min-width: 756px) {
+  .join p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .join__slider-container {
+    width: calc(100vw - 100px);
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .join__slider-container {
+    width: calc(100vw - 230px);
+    margin-inline: auto;
+  }
+}
