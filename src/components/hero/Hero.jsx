@@ -16,14 +16,14 @@ const Hero = () => {
             Join Talents Pipeline
           </a>
           <div className="hero_number-container">
-            <div className="hero__number">
+            <h4 className="hero__number">
               120<span className="special">+</span>
-              <p>Recruiters</p>
-            </div>
-            <div className="hero__number">
+              <span>Recruiters</span>
+            </h4>
+            <h4 className="hero__number">
               200<span className="special">+</span>
-              <p>Talents</p>
-            </div>
+              <span>Talents</span>
+            </h4>
           </div>
         </div>
         <div className="hero__image-container">

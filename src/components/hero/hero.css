@@ -31,7 +31,8 @@
   font-weight: 700;
 }
 
-.hero__text .hero__number p {
+.hero__text .hero__number span:not(:first-child) {
+  display: block;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 600;
