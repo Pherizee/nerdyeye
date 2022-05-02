@@ -60,6 +60,10 @@
   color: var(--clr-neutral-900);
 }
 
+.lock-scroll {
+  overflow: hidden;
+}
+
 /* media queries */
 @media screen and (min-width: 990px) {
   :root {

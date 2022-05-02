@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../../img/logo.png";
 import navLeft from "../../img/nav-border-left.png";
 import navRight from "../../img/nav-border-right.png";
@@ -6,6 +6,13 @@ import "./header.css";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const docBody = document.body;
+
+  useEffect(() => {
+    isOpen
+      ? docBody.classList.add("lock-scroll")
+      : docBody.classList.remove("lock-scroll");
+  });
 
   function handleClick() {
     setIsOpen((prevState) => !prevState);
