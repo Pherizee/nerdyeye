@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nerdyeye/static/css/main.0bf6d082.css",
+    "main.css": "/nerdyeye/static/css/main.06676feb.css",
     "main.js": "/nerdyeye/static/js/main.e61c79f7.js",
     "static/media/team.jpg": "/nerdyeye/static/media/team.04404b8068249fd20385.jpg",
     "static/media/Icon feather-linkedin.svg": "/nerdyeye/static/media/Icon feather-linkedin.48e1a370c6a03e76d89d0a310fc6666c.svg",
@@ -8,11 +8,11 @@
     "static/media/Icon feather-instagram.svg": "/nerdyeye/static/media/Icon feather-instagram.ef06f687a83a8eebd73d15eaaefff1aa.svg",
     "index.html": "/nerdyeye/index.html",
     "static/media/Icon feather-twitter.svg": "/nerdyeye/static/media/Icon feather-twitter.c2af1c62a0e669cb56932d47b104f932.svg",
-    "main.0bf6d082.css.map": "/nerdyeye/static/css/main.0bf6d082.css.map",
+    "main.06676feb.css.map": "/nerdyeye/static/css/main.06676feb.css.map",
     "main.e61c79f7.js.map": "/nerdyeye/static/js/main.e61c79f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bf6d082.css",
+    "static/css/main.06676feb.css",
     "static/js/main.e61c79f7.js"
   ]
 }
