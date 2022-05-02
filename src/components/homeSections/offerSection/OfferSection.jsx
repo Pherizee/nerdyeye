@@ -19,7 +19,7 @@ const OfferSection = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [viewportWidth]);
+  }, [viewportWidth, isMobile]);
 
   const offerCardContents = [
     {
